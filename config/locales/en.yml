@@ -28,6 +28,22 @@
 #
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  staticpages:
+    home:  
+      title: "Home"
+      title2: "| Ruby on Rails Tutorial Sample App"
+      homepage: "This is the home page for the"
+      rails: "Ruby on Rails Tutorial"
+      sample: "sample application."
+    help:
+      title: "Help"
+      title2: "| Ruby on Rails Tutorial Sample App"
+      gethelp: "Get help on the Ruby on Rails Tutorial at the"
+      rails: "Rails Tutorial help page"
+    about: 
+      title: "About"
+  layouts:
+    application:
+      title: "SampleApp"
+      title2: "| Ruby on Rails Tutorial Sample App"
