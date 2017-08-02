@@ -1,33 +1,73 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at http://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  users:
+    new:
+      signup: "Sign Up"
+      create: "Create user"
+      confirmation: "Confirmation"
+      enter_name: "Enter name"
+      enter_email: "Enter email"
+      enter_pass: "Enter password"
+  shared:
+    error_messages:
+      error: "error"
+      contain: "The form contains"
+  layouts:
+    application:
+      title: "SampleApp"
+      title2: "| Ruby on Rails Tutorial Sample App"
+      basetitle: "Ruby onrails turtorial sample app"
+    header:
+      account: "Account"
+      sample: "sample app"
+      home: "Home"
+      help: "Help"
+      Login: "Log in"
+      user: "Users"
+      profile: "Profile"
+      setting: "Settings"
+      logout: "Log out"
+    footer:
+      title: "Ruby on Rails Tutorial"
+      by: "by"
+      author: "Michael Hartl"
+      new: "News"
+      about: "About"
+      contact: "Contact"
+  sessions:
+    new:
+      login: "Log In"
+      signup: "Sign up now!"
+      new_user: "New user?"
+    create:
+      failed: "Failed to login"
+  staticpages:
+    home:
+      title: "Home"
+      title2: "| Ruby on Rails Tutorial Sample App"
+      homepage: "This is the home page for the"
+      rails: "Ruby on Rails Tutorial"
+      sample: "sample application."
+      welcome: "Welcome to the Sample App"
+      h2: "This is the home page for the"
+      sigup: "Sign up now!"
+      railslogo: "Rails logo"
+    help:
+      title: "Help"
+      title2: "| Ruby on Rails Tutorial Sample App"
+      get_help: "Get help on the Ruby on Rails Tutorial at the"
+      rails: "Rails Tutorial help page"
+    about:
+      title: "About"
+  users:
+    create:
+      welcome: "Wellcome to the sample app"
+      failed: "failed to signup"
+    show:
+      show_failed: "can't find user that you looking for"
+    new:
+      h1: "User#new"
+      p: "Find me in app/views/users/new.html.erb"
+      signup: "Sing Up"
+  controllers:
+    users_controller:
+      welcome: "Wellcome to the sample app"
