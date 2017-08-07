@@ -47,3 +47,5 @@ en:
     application:
       title: "SampleApp"
       title2: "| Ruby on Rails Tutorial Sample App"
+  helpers:
+    basetitle: "Ruby onrails turtorial sample app"
