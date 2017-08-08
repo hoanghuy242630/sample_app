@@ -24,6 +24,7 @@ group :development, :test do
   gem "selenium-webdriver"
   gem "rspec-rails", "~> 3.5"
   gem "factory_girl_rails"
+  gem "rails-controller-testing"
 end
 
 group :development do
@@ -35,7 +36,7 @@ group :development do
 end
 
 group :test do
-  gem "rails-controller-testing", "1.0.2"
+  gem "rails-controller-testing"
   gem "minitest-reporters", "1.1.14"
   gem "guard", "2.13.0"
   gem "guard-minitest", "2.4.4"
