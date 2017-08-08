@@ -34,3 +34,7 @@ en:
       rails: "Rails Tutorial help page"
     about: 
       title: "About"
+  users:
+    new:
+      h1: "User#new"
+      p: "Find me in app/views/users/new.html.erb"
