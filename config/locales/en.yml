@@ -1,23 +1,32 @@
 en:
+  users:
+    new:
+      signup: "Sign Up"
+      create: "Create user"
+      confirmation: "Confirmation"
+  shared:
+    error_messages:
+      error: "error"
+      contain: "The form contains"
   layouts:
     application:
       title: "SampleApp"
       title2: "| Ruby on Rails Tutorial Sample App"
       basetitle: "Ruby onrails turtorial sample app"
-    header: 
+    header:
       sample: "sample app"
       home: "Home"
       help: "Help"
       Login: "Log in"
-    footer: 
+    footer:
       title: "Ruby on Rails Tutorial"
       by: "by"
       author: "Michael Hartl"
       new: "News"
       about: "About"
-      contact: "Contact"  
+      contact: "Contact"
   staticpages:
-    home:  
+    home:
       title: "Home"
       title2: "| Ruby on Rails Tutorial Sample App"
       homepage: "This is the home page for the"
@@ -32,9 +41,11 @@ en:
       title2: "| Ruby on Rails Tutorial Sample App"
       gethelp: "Get help on the Ruby on Rails Tutorial at the"
       rails: "Rails Tutorial help page"
-    about: 
+    about:
       title: "About"
   users:
-    new:
-      h1: "User#new"
-      p: "Find me in app/views/users/new.html.erb"
+    create:
+      welcome: "Wellcome to the sample app"
+      failed: "failed to signup"
+    show:
+      show_failed: "can't find user that you looking for"
