@@ -1,7 +1,7 @@
 require "spec_helper"
 require "rails_helper"
- 
-describe "staticpages/help.html.erb" do
+
+describe "hoem page" do
   subject {rendered}
   before do
     render

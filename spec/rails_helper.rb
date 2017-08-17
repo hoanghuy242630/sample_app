@@ -1,10 +1,10 @@
 require "shoulda/matchers"
 require "spec_helper"
-require File.expand_path("../../config/environment", __FILE__)
+require File.expand_path "../../config/environment", __FILE__
 require "rspec/rails"
 
 ENV["RAILS_ENV"] ||= "test"
-abort("The Rails environment is running in production mode!") if Rails.env.production?
+abort "The Rails environment is running in production mode!" if Rails.env.production?
 ActiveRecord::Migration.maintain_test_schema!
 
 RSpec.configure do |config|

@@ -1,7 +1,7 @@
 require "spec_helper"
 require "rails_helper"
- 
-describe "staticpages/about.html.erb" do
+
+describe "about page" do
   subject {rendered}
   before do
     render

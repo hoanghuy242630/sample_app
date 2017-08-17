@@ -18,6 +18,20 @@ RSpec.describe User, type: :model do
       it {is_expected.not_to be_valid}
     end
 
+     context "missing .com" do
+      before do
+        subject.email = "huy@gmail"
+      end
+      it{is_expected.not_to be_valid}
+    end
+
+    context "double @@" do
+      before do
+        subject.email = "huy@@gmail"
+      end
+      it{is_expected.not_to be_valid}
+    end
+
     context "email regex" do
       before do
         subject.email = "huy123@gmail,com"

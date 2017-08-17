@@ -2,7 +2,7 @@ require "rails_helper"
 
 RSpec.describe StaticpagesController, type: :controller do
   describe "GET show" do
-    context "when param is home" do
+    context "go to home page" do
       before do
         get :show, params: {page: :home}
       end
@@ -10,7 +10,7 @@ RSpec.describe StaticpagesController, type: :controller do
       it{expect(response).to render_template(:home)}
     end
 
-    context "when param is about" do
+    context "go to about page" do
       before do
         get :show, params: {page: :about}
       end
@@ -18,7 +18,7 @@ RSpec.describe StaticpagesController, type: :controller do
       it{expect(response).to render_template(:about)}
     end
 
-    context "when param is help" do
+    context "go to help page" do
       before do
         get :show, params: {page: :help}
       end

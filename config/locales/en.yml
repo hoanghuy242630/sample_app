@@ -1,23 +1,47 @@
 en:
+  users:
+    new:
+      signup: "Sign Up"
+      create: "Create user"
+      confirmation: "Confirmation"
+      enter_name: "Enter name"
+      enter_email: "Enter email"
+      enter_pass: "Enter password"
+  shared:
+    error_messages:
+      error: "error"
+      contain: "The form contains"
   layouts:
     application:
       title: "SampleApp"
       title2: "| Ruby on Rails Tutorial Sample App"
       basetitle: "Ruby onrails turtorial sample app"
-    header: 
+    header:
+      account: "Account"
       sample: "sample app"
       home: "Home"
       help: "Help"
       Login: "Log in"
-    footer: 
+      user: "Users"
+      profile: "Profile"
+      setting: "Settings"
+      logout: "Log out"
+    footer:
       title: "Ruby on Rails Tutorial"
       by: "by"
       author: "Michael Hartl"
       new: "News"
       about: "About"
-      contact: "Contact"  
+      contact: "Contact"
+  sessions:
+    new:
+      login: "Log In"
+      signup: "Sign up now!"
+      new_user: "New user?"
+    create:
+      failed: "Failed to login"
   staticpages:
-    home:  
+    home:
       title: "Home"
       title2: "| Ruby on Rails Tutorial Sample App"
       homepage: "This is the home page for the"
@@ -30,11 +54,20 @@ en:
     help:
       title: "Help"
       title2: "| Ruby on Rails Tutorial Sample App"
-      gethelp: "Get help on the Ruby on Rails Tutorial at the"
+      get_help: "Get help on the Ruby on Rails Tutorial at the"
       rails: "Rails Tutorial help page"
-    about: 
+    about:
       title: "About"
   users:
+    create:
+      welcome: "Wellcome to the sample app"
+      failed: "failed to signup"
+    show:
+      show_failed: "can't find user that you looking for"
     new:
       h1: "User#new"
       p: "Find me in app/views/users/new.html.erb"
+      signup: "Sing Up"
+  controllers:
+    users_controller:
+      welcome: "Wellcome to the sample app"
