@@ -4,7 +4,7 @@ en:
       signup: "Sign Up"
       create: "Create user"
       confirmation: "Confirmation"
-      enter_name: "Enter name"
+      username: "Enter name"
       enter_email: "Enter email"
       enter_pass: "Enter password"
   shared:
@@ -21,7 +21,7 @@ en:
       sample: "sample app"
       home: "Home"
       help: "Help"
-      Login: "Log in"
+      login: "Log in"
       user: "Users"
       profile: "Profile"
       setting: "Settings"
