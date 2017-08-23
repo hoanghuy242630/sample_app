@@ -61,6 +61,30 @@ en:
     about:
       title: "About"
   users:
+    user:
+      delete: "delete"
+      confir,: "Are you sure?"
+    destroy:
+      deleted: "Delete success"
+    index:
+      title: "All user"
+    update:
+      failed: "Failed to update"
+      update: "Profile updated"
+    form:
+      confirmation: "Confirmation"
+      username: "User name"
+      email: "Email"
+      password: "Password"
+      save: "Save"
+    edit:
+      login: "Please login first"
+      title: "Edit user"
+      update: "Update your profile"
+
+      save: "Save change"
+      chage: "Chage"
+      incorrect_user: "You have no permition to edit another profile"
     create:
       welcome: "Wellcome to the sample app"
       failed: "failed to signup"
