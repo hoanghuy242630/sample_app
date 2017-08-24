@@ -1,4 +1,16 @@
 en:
+  account_activations:
+    edit:
+      activated: "Active Successfull"
+  user_mailer:
+    account_activation:
+      title: "Sample App"
+      hi: "Hi"
+      welcome: "Welcome to the Sample App! Click on the link below to activate your account: "
+      activate: "Activate"
+    password_reset:
+      title: "User#password_reset"
+      find_me: ", find me in app/views/user_mailer/password_reset.html.erb"
   users:
     new:
       login: "Allready have an account !"
@@ -41,6 +53,8 @@ en:
       new_user: "New user?"
       remember: "Remember me on this computer"
     create:
+      not_activated: "Account is not activated, "
+      check_email: "check your email adress"
       failed: "Failed to login"
   staticpages:
     home:
@@ -86,6 +100,7 @@ en:
       chage: "Chage"
       incorrect_user: "You have no permition to edit another profile"
     create:
+      check_email: "Check your email"
       welcome: "Wellcome to the sample app"
       failed: "failed to signup"
     show:
