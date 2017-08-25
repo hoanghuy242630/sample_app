@@ -148,6 +148,44 @@ aside {
   margin-top: 15px;
 }
 
+.stats {
+  a {
+    border-left: 1px solid $gray-lighter;
+    color: gray;
+    &:first-child {
+    padding: 0 10px;
+      padding-left: 0;
+      border: 0;
+    }
+    float: left;
+    &:hover {
+      text-decoration: none;
+      color: blue;
+    }
+  }
+  margin-top: 0;
+  overflow: auto;
+  padding: 0;
+  strong {
+    display: block;
+  }
+}
+
+.user_avatars {
+  a {
+    padding: 0;
+  }
+  .gravatar {
+    margin: 1px;
+  }
+  margin-top: 10px;
+  overflow: auto;
+}
+
+.users.follow {
+  padding: 0;
+}
+
 /* forms */
 
 .uneditable-input,

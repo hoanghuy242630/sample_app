@@ -19,3 +19,6 @@ micropost:
 picture:
   limit_size:
     height: 400
+users:
+  show_follow:
+    size: 30
