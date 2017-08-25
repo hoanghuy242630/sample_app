@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
-  before_action :logged_in_user, only: [:show, :edit, :update]
+  before_action :logged_in_user, except: [:new, :create]
   before_action :correct_user, only: [:edit, :update]
-  before_action :admin_user, only: :destroy
+  before_action :verify_admin!, only: :destroy
   before_action :load_user, only: [:show, :destroy]
 
   def index
@@ -25,7 +25,10 @@ class UsersController < ApplicationController
     end
   end
 
-  def show; end
+  def show
+    @microposts = @user.microposts.paginate page: params[:page],
+      per_page: Settings.users.indexpage.user_per_page
+  end
 
   def edit; end
 
@@ -70,7 +73,7 @@ class UsersController < ApplicationController
     redirect_to root_url
   end
 
-  def admin_user
+  def verify_admin!
     redirect_to(root_url) unless current_user.admin?
   end
 

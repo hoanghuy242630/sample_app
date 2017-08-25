@@ -36,9 +36,15 @@ en:
       enter_email: "Enter email"
       enter_pass: "Enter password"
   shared:
+    micropost_form:
+      compose: "Compose new micropost..."
+      post: "Post"
     error_messages:
+      body: "The form contains"
       error: "error"
       contain: "The form contains"
+      view: "View my profile"
+      micropost: "micropost"
   layouts:
     application:
       title: "SampleApp"
@@ -74,6 +80,7 @@ en:
       failed: "Failed to login"
   staticpages:
     home:
+      micropost: "Micropost Feed"
       title: "Home"
       title2: "| Ruby on Rails Tutorial Sample App"
       homepage: "This is the home page for the"
@@ -121,6 +128,7 @@ en:
       failed: "failed to signup"
     show:
       show_failed: "can't find user that you looking for"
+      mocropost: "Microposts ("
     new:
       h1: "User#new"
       p: "Find me in app/views/users/new.html.erb"
